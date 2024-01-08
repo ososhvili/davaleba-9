@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+a{
+    color: #636060;
+    font-family: 'Helvetica Neue', sans-serif;                                         
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    margin-left: 50px;
+}
+header {
+    width: 1440px;
+    margin: 0px auto;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+    background-color: #FFF;
+}
+.container-top{
+    width: 1440px;
+    height: 84px;
+    margin: 0px auto;
+    padding-right: 78px;
+    padding-left: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-right{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.container-image{
+    width: 1440px;
+    height: 606px;
+    margin: 0px auto;
+    background-image: url(../images/Rectangle.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #FFF;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container-bot{
+    width: 1440px;
+    margin: 84px auto;
+    padding: 0px 98px 140px 100px;
+    display: flex;
+}
+.services{
+    width: 236px;
+    margin-right: 80px;
+}
+.images{
+    width: 924px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+
+}
+
+h2{
+    color: #FFF;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 31px;
+}
+h3{
+    color: #636060;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h4{
+    color: #010101;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 9px;
+    margin-bottom: 37px;
+}
+h5{
+    color: #343232;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+    margin-bottom: 9px;
+}
+p{
+    color: #636060;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.image{
+    width: 286px;
+}
